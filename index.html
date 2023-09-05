@@ -165,16 +165,16 @@
                             // Map weather condition codes to video sources
                             if (weatherCode >= 200 && weatherCode < 600) {
                                 // Rainy conditions
-                                weatherVideo.src = 'https://drive.google.com/file/d/1j9CRQF-9wPH0wAdwjJ5G28VcB5-_fMmF/view?usp=sharing';
+                                weatherVideo.src = 'rainy.mp4';
                             } else if (weatherCode >= 600 && weatherCode < 700) {
                                 // Snowy conditions
-                                weatherVideo.src = 'https://drive.google.com/file/d/1LomOsYDINuHFLawo69OION8Vss9Vm_WT/view?usp=sharing';
+                                weatherVideo.src = 'snowy.mp4';
                             } else if (weatherCode >= 801 && weatherCode <= 804) {
                                 // Cloudy conditions
-                                weatherVideo.src = 'https://drive.google.com/file/d/1AKwxKZEK2lCT4v-sYb-mAI6LHKtc-rQG/view?usp=sharing';
+                                weatherVideo.src = 'cloudy.mp4';
                             } else {
                                 // Default to sunny conditions for other weather codes
-                                weatherVideo.src = 'https://drive.google.com/file/d/1mKG8PT0BGbMDuMSIfEcupAeALTxV6OfU/view?usp=sharing';
+                                weatherVideo.src = 'sunny.mp4';
                             }
         
                             // Play the video
